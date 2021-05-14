@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">Profile Info</string>
+    <string name="email_hint">Email</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="age_hint">Age</string>
+    <string name="username_hint">Username</string>
+    <string name="empty_field_error_msg">Fill in the field</string>
+    <string name="email_error_msg">Email not valid</string>
+    <string name="username_error_msg">Special characters are not allowed \n Must contain at least 10 symbols</string>
+    <string name="name_error_msg">Must contain only letters</string>
+    <string name="age_error_msg">Enter valid age</string>
+    <string name="button_add_user">Add User</string>
+    <string name="button_remove_user">Remove User</string>
+    <string name="button_update_user">Update User</string>
+</resources>
