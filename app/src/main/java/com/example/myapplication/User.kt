@@ -1,4 +1,10 @@
 package com.example.myapplication
 
-data class User (val firstName: String, val lastName: String, var age: String, val email: String){
+
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+data class User (val email: String, val firstName: String, val lastName: String, var age: String) :
+    Parcelable {
 }

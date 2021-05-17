@@ -155,10 +155,33 @@
         android:id="@+id/success_error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Process status"
+        android:text="@string/process_status"
         app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/active_users"
+        android:textColor="#7CB342"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/success_error"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/removedCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/removed_users"
+        android:textColor="#D81B60"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/success_error"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
